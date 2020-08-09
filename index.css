@@ -1,0 +1,149 @@
+body{
+font-family: "Sansation";
+font-style: normal;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-family: "Montserrat" !important;
+    font-weight: bold;
+    font-size: 50px !important;
+    color: #ffffff !important;
+}
+
+.collapse{
+    margin-left: 70% !important;
+    padding-right: 20px !important;
+}
+
+.nav-link{
+    font-size:20px !important;
+    color: #ffffff !important;
+}
+
+.nav-link:hover{
+    font-size: 30px !important;
+    text-decoration: underline !important;
+}
+/* Header */
+
+#header{
+    background-image: url("img/young-caucasian-woman-as-female-developer-profession.jpg");
+    height: 600px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.header-title{
+    font-weight: bold;
+    font-size: 50px;
+    padding:30px 80px !important;
+    color:#ffffff;
+    text-align: center;
+}
+
+/* About */
+
+#about{
+    background-color:#ffffff;
+}
+
+.about-title{
+    color: #D08A55;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-image{
+    height:400px;
+    width:400px;
+    margin:30px !important;
+}
+
+.details{
+text-align: left;
+padding-right: 30px;
+}
+
+h2{
+    padding: 60px 0px 40px 0px;
+}
+
+h3{
+    padding-bottom: 40px;
+}
+
+/* Section */
+
+#gallery{
+    background-color:#FFE6D5;
+}
+
+.gallery-image{
+    padding-top:30px;
+    padding-bottom: 40px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:350px;
+    width: 40%;
+}
+
+/* Footer */
+
+#footer{
+    background-color:#EBB48C;
+}
+
+.p-footer{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+
+    body{
+        width:100%;
+    }
+
+    #header{
+        object-fit: cover;
+        background-image: url("img/Untitled-design-10-1-1024x576.png");
+        height: 400px;
+        width: 100%;
+    }
+
+    .about-image{
+        text-align: left !important;
+        padding-right: 70px;
+    }
+
+    .img{
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:300px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .about-image{
+        position: relative !important; 
+        left: 50px !important;
+    }
+    
+    .details{
+        position: relative !important; 
+        right: 150px !important;
+    }
+   
+}
